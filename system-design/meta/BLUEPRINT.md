@@ -1,0 +1,13 @@
+# SYSTEM DESIGN — 12 chapters
+01 How to Run a Design Interview (the 7 steps, time budget, what scores points)
+02 Back-of-the-Envelope Estimation (latency numbers, QPS, storage, bandwidth math)
+03 OOP & SOLID for Interviews (LLD foundations, UML-lite, code smells)
+04 Design Patterns That Get Asked (strategy, observer, factory, singleton, decorator, state)
+05 Classic LLD Problems (parking lot, elevator, vending machine, splitwise, chess, BookMyShow)
+06 Databases & Data Modelling (SQL vs NoSQL, indexing, normalisation, transactions, ACID)
+07 Caching & CDNs (patterns, eviction, invalidation, thundering herd, hot keys)
+08 Load Balancing, Proxies & API Design (REST, rate limiting, idempotency, pagination)
+09 Queues, Streams & Async Processing (Kafka, pub/sub, exactly-once, backpressure, DLQ)
+10 Scaling Data: Replication, Sharding, Consistency (CAP, quorum, leader election, hotspots)
+11 HLD Case Studies I (URL shortener, rate limiter, news feed, chat, notification system)
+12 HLD Case Studies II (ride-hailing, food delivery, video streaming, search autocomplete, payments)

@@ -1,0 +1,13 @@
+# CS FUNDAMENTALS — 12 chapters
+01 OS: Processes, Threads & Scheduling (states, context switch, scheduling algorithms + Gantt math)
+02 OS: Synchronisation & Deadlock (race conditions, mutex/semaphore, producer-consumer, banker's)
+03 OS: Memory Management (paging, segmentation, virtual memory, page replacement + fault math)
+04 OS: File Systems, I/O & Storage (inodes, disk scheduling algorithms with seek-time math)
+05 DBMS: Relational Model, Keys & SQL (joins, subqueries, aggregates, window functions)
+06 DBMS: Normalisation & Schema Design (1NF-BCNF with worked decompositions, functional dependencies)
+07 DBMS: Transactions, Concurrency & Recovery (ACID, isolation levels, locking, MVCC, logs)
+08 DBMS: Indexing & Query Performance (B+ tree, hash index, EXPLAIN, when indexes hurt)
+09 Networks: Layers, IP & Routing (OSI/TCP-IP, subnetting math, routing, NAT, DNS)
+10 Networks: TCP, UDP & HTTP (handshake, flow/congestion control, HTTP/1.1 vs 2 vs 3, TLS, cookies)
+11 OOP: Principles & Language Mechanics (4 pillars, overloading vs overriding, virtual, diamond problem)
+12 Compilers, Git & Dev Fundamentals (compilation stages, memory layout of a program, git internals & workflows)

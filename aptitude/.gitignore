@@ -1,0 +1,5 @@
+# Typst build output (the PDF is committed deliberately - see README)
+build/*.png
+build/*.log
+*.aux
+.DS_Store
