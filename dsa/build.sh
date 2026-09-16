@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ============================================================
-#  Build the whole DSA book to build/dsa-book.pdf
+#  Build the whole DSA book to ../pdf/2-dsa.pdf
 # ============================================================
 set -euo pipefail
 
@@ -8,8 +8,8 @@ export PATH="$HOME/.local/bin:$PATH"
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SRC="$ROOT/book.typ"
-OUT_DIR="$ROOT/build"
-OUT="$OUT_DIR/dsa-book.pdf"
+OUT_DIR="$ROOT/../pdf"
+OUT="$OUT_DIR/2-dsa.pdf"
 
 mkdir -p "$OUT_DIR"
 

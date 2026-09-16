@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================
 #  Build the whole System Design book to
-#  build/system-design-book.pdf
+#  ../pdf/3-system-design.pdf
 # ============================================================
 set -euo pipefail
 
@@ -9,8 +9,8 @@ export PATH="$HOME/.local/bin:$PATH"
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SRC="$ROOT/book.typ"
-OUT_DIR="$ROOT/build"
-OUT="$OUT_DIR/system-design-book.pdf"
+OUT_DIR="$ROOT/../pdf"
+OUT="$OUT_DIR/3-system-design.pdf"
 
 mkdir -p "$OUT_DIR"
 

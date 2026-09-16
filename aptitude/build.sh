@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ============================================================
-#  Build the whole book to build/aptitude-book.pdf
+#  Build the whole book to ../pdf/1-aptitude.pdf
 # ============================================================
 set -euo pipefail
 
@@ -8,8 +8,8 @@ export PATH="$HOME/.local/bin:$PATH"
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SRC="$ROOT/book.typ"
-OUT_DIR="$ROOT/build"
-OUT="$OUT_DIR/aptitude-book.pdf"
+OUT_DIR="$ROOT/../pdf"
+OUT="$OUT_DIR/1-aptitude.pdf"
 
 mkdir -p "$OUT_DIR"
 

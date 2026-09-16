@@ -5,11 +5,11 @@ Self-study books for campus and lateral hiring, written so a student can work th
 
 | # | Book | Covers | Size |
 |---|---|---|---|
-| 1 | [`aptitude/`](aptitude) | Quant, logical reasoning, DI, data sufficiency, 5 mock papers | 24 ch · **456 pp** |
-| 2 | [`dsa/`](dsa) | Data structures & algorithms for the coding round (JavaScript) | 20 ch · **815 pp** |
-| 3 | [`system-design/`](system-design) | LLD, design patterns, 10 HLD case studies | 12 ch · **452 pp** |
-| 4 | [`cs-fundamentals/`](cs-fundamentals) | OS, DBMS, Networks, OOP — the technical round | 12 ch · **366 pp** |
-| 5 | [`interview-rounds/`](interview-rounds) | Resume, HR, STAR, defending projects, puzzles, GD | 8 ch · **243 pp** |
+| 1 | [`aptitude/`](aptitude) · [PDF](pdf/1-aptitude.pdf) | Quant, logical reasoning, DI, data sufficiency, 5 mock papers | 24 ch · **456 pp** |
+| 2 | [`dsa/`](dsa) · [PDF](pdf/2-dsa.pdf) | Data structures & algorithms for the coding round (JavaScript) | 20 ch · **815 pp** |
+| 3 | [`system-design/`](system-design) · [PDF](pdf/3-system-design.pdf) | LLD, design patterns, 10 HLD case studies | 12 ch · **452 pp** |
+| 4 | [`cs-fundamentals/`](cs-fundamentals) · [PDF](pdf/4-cs-fundamentals.pdf) | OS, DBMS, Networks, OOP — the technical round | 12 ch · **366 pp** |
+| 5 | [`interview-rounds/`](interview-rounds) · [PDF](pdf/5-interview-rounds.pdf) | Resume, HR, STAR, defending projects, puzzles, GD | 8 ch · **243 pp** |
 
 **76 chapters · 2,332 pages · ~2,100 fully solved examples · 160 diagrams · 1,342 executed code listings.**
 
@@ -39,11 +39,15 @@ Shared, tested helpers live in [`shared/js/toolkit.js`](shared/js/toolkit.js) �
 whole series uses one verified implementation instead of a new one per chapter.
 Run its tests with `node shared/js/test-toolkit.js`.
 
+## Read
+
+All five finished books are in **[`pdf/`](pdf)** at the top of this repo.
+
 ## Build
 
-Each book builds independently:
+Each book builds independently and writes into `pdf/`:
 
-    cd dsa && ./build.sh          # -> build/dsa-book.pdf
+    cd dsa && ./build.sh          # -> pdf/2-dsa.pdf
 
 Requires [Typst](https://typst.app):
 

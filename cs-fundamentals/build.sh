@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================
 #  Build the whole CS Fundamentals book to
-#  build/cs-fundamentals-book.pdf
+#  ../pdf/4-cs-fundamentals.pdf
 # ============================================================
 set -euo pipefail
 
@@ -9,8 +9,8 @@ export PATH="$HOME/.local/bin:$PATH"
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SRC="$ROOT/book.typ"
-OUT_DIR="$ROOT/build"
-OUT="$OUT_DIR/cs-fundamentals-book.pdf"
+OUT_DIR="$ROOT/../pdf"
+OUT="$OUT_DIR/4-cs-fundamentals.pdf"
 
 mkdir -p "$OUT_DIR"
 
