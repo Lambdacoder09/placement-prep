@@ -1,5 +1,5 @@
 # BOOK 4 — CS FUNDAMENTALS (OS, DBMS, Networks, OOP)
-Read /home/zayed/books/shared/CORE-RULES.md first. It is binding.
+Read ../shared/CORE-RULES.md first. It is binding.
 
 ## What this book is for
 The technical round where an interviewer asks core-subject questions rapid-fire. Service
@@ -12,7 +12,7 @@ and names the trade-off.
 
 
 ## Language
-Read /home/zayed/books/shared/LANGUAGE-POLICY.md — it is binding.
+Read ../shared/LANGUAGE-POLICY.md — it is binding.
 **JavaScript primary, Python secondary.** Not C++, not Java (except where the policy's
 "where this policy bends" section explicitly allows it to illustrate OOP/OS concepts).
 Every snippet must be run with `node` or `python3` before you publish it.

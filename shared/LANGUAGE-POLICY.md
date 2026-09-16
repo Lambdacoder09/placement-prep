@@ -5,7 +5,7 @@ C++ and Java are NOT used as primary languages anywhere in this series.
 
 - Show JS first, always. Add a Python version where it is meaningfully shorter or clearer.
 - Use modern readable JS: const/let, arrow functions, Map/Set, destructuring.
-- Shared tested helpers live in `/home/zayed/books/shared/js/toolkit.js`
+- Shared tested helpers live in `./js/toolkit.js`
   (MinHeap, DSU, Deque, lowerBound, upperBound). USE them; do not redefine per chapter.
 
 ## The JS traps to teach wherever they apply (#trap[] box)

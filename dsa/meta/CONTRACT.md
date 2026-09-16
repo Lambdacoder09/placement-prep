@@ -1,5 +1,5 @@
 # BOOK 2 — DSA & CODING ROUND
-Read /home/zayed/books/shared/CORE-RULES.md first. It is binding.
+Read ../shared/CORE-RULES.md first. It is binding.
 
 ## What makes this book different
 Code is the content. Every problem is solved with an APPROACH LADDER, never one jump to
@@ -11,7 +11,7 @@ Then one line naming the IDEA that unlocked the optimal ("sort first, then two p
 collapse the inner loop"). A student must see WHY the optimal was reachable.
 
 ## Language — JavaScript primary, Python secondary
-Also read /home/zayed/books/shared/LANGUAGE-POLICY.md — it is binding.
+Also read ../shared/LANGUAGE-POLICY.md — it is binding.
 **JavaScript (Node) is the primary language of this book.** Every solution shows JS first.
 **Python is the secondary language**, shown for each chapter's 2-3 signature problems where
 it is meaningfully shorter or clearer. C++ is NOT used in this book.
@@ -37,7 +37,7 @@ Every chapter that touches these must call them out in a #trap[] box:
    `a.map(r => [...r])`.
 
 ### Shared toolkit — do NOT redefine these per chapter
-`/home/zayed/books/shared/js/toolkit.js` holds tested `MinHeap`, `DSU`, `Deque`,
+`../shared/js/toolkit.js` holds tested `MinHeap`, `DSU`, `Deque`,
 `lowerBound`, `upperBound`. Chapters USE them and reference the JS Toolkit appendix.
 Only re-show an implementation when the chapter is specifically teaching that structure.
 
